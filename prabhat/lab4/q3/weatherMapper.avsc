@@ -1,0 +1,9 @@
+{
+	"type": "record",
+	"name": "WeatherMapperRecord",
+	"doc": "A weather reading.",
+	"fields": [
+				{"name":"year", "type":"int", "order":"descending"},
+				{"name":"temperature", "type":"float", "order":"descending"}
+			]	
+}
